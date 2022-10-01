@@ -1,12 +1,9 @@
 "use strict";
 // let sid: number = 100;
 const PostDetails = (postDetails) => {
-    console.log("Post title is:" + postDetails.title, postDetails.des);
+    console.log("Post title is:" + postDetails.title, postDetails.des, postDetails.id);
 };
-PostDetails({
-    title: "First post is here",
-    des: "This is a first description",
-});
+PostDetails({ title: "First post is here", des: "This is a first description", id: 10 });
 var a = 10;
 // console.log("Numbr is here:"+a);
 var Status;
@@ -22,8 +19,13 @@ if (Status.process === "process") {
 else {
     console.log("Not matching");
 }
-// list
-const list = [10, 20, 50, 6, 588, 996, 54, 25, 3, 5, 65, 45, 96];
-for (var resultval of list) {
-    console.log(resultval);
-}
+const firstFunction = (a, b) => {
+    console.log("Learning function..." + (a + b));
+};
+firstFunction(10, 20);
+// function second(){
+//     console.log("This is a second function..")
+// }
+// second();
+const secondFunction = () => {
+};
