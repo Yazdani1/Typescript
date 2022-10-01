@@ -6,6 +6,10 @@
 
 // let color: string | number | boolean;
 
+
+
+
+
 // Name = "hkhh";
 
 // let a:any = "Hello"
@@ -91,7 +95,9 @@
 
 // var proid = "I am a variable from type of typescript";
 
+
 // console.log(proid);
+
 
 // //Enum
 // enum Directions {
@@ -107,7 +113,7 @@
 
 //     left = 1,
 //     right = 2,
-
+    
 // }
 
 // console.log("Enum with value"+ Direction2.left);
@@ -120,50 +126,74 @@
 
 // }
 
+
+// console.log("Enum value with string type:"+Direction3.process)
+
+
+
 // console.log("Total count" +amount(10,50))
 // console.log("Total count" +amount(150,87))
 
 interface IBase {
-  id?: string;
-  name?: string;
-  image?: string;
+    id?: string | number,
+    name?: string,
+    image?: string
 }
 
-interface Post extends IBase {
-  title: string;
-  des?: string;
-  comment?: string;
+interface Post extends IBase{
+    title: string,
+    des?: string,
+    comment?: string
 }
 
-const PostDetails = (postDetails: Post) => {
-  console.log("Post title is:" + postDetails.title, postDetails.des);
-};
+const PostDetails = (postDetails: Post)=>{
 
-PostDetails({
-  title: "First post is here",
-  des: "This is a first description",
-});
+    console.log("Post title is:"+postDetails.title,postDetails.des,postDetails.id);
+
+}
+
+PostDetails({title:"First post is here",des:"This is a first description",id:10})
 
 var a: number = 10;
 
 // console.log("Numbr is here:"+a);
 
+
 enum Status {
-  done = "done",
-  process = "process",
-  started = "started",
-  panding = "panding",
+    done = "done",
+    process = "process",
+    started = "started",
+    panding = "panding"
 }
-if (Status.process === "process") {
-  console.log("Its matching");
-} else {
-  console.log("Not matching");
+if(Status.process==="process"){
+    console.log("Its matching")
+
+}else{
+    console.log("Not matching")
 }
 
-// list
-
-const list: number[] = [10, 20, 50, 6, 588, 996, 54, 25, 3, 5, 65, 45, 96];
-
-for (var resultval of list) {
-  console.log(resultval);
+const firstFunction = (a:number,b:number)=>{
+    console.log("Learning function..."+(a+b));
 }
+
+firstFunction(10,20);
+
+// function second(){
+//     console.log("This is a second function..")
+// }
+
+// second();
+
+const secondFunction = ()=>{
+
+    
+}
+
+
+
+
+
+
+
+
+
