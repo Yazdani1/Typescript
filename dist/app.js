@@ -3,7 +3,11 @@
 const PostDetails = (postDetails) => {
     console.log("Post title is:" + postDetails.title, postDetails.des, postDetails.id);
 };
-PostDetails({ title: "First post is here", des: "This is a first description", id: 10 });
+PostDetails({
+    title: "First post is here",
+    des: "This is a first description",
+    id: 10,
+});
 var a = 10;
 // console.log("Numbr is here:"+a);
 var Status;
@@ -27,5 +31,10 @@ firstFunction(10, 20);
 //     console.log("This is a second function..")
 // }
 // second();
-const secondFunction = () => {
+const secondFunction = (a, b) => {
+    return a + b;
 };
+const resultSecondFunction = secondFunction(5, 6);
+console.log("Return result is:" + resultSecondFunction);
+const secondResultSecondFunction = secondFunction(10, 80);
+console.log("Return result is:" + secondResultSecondFunction);

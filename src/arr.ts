@@ -19,4 +19,11 @@ const mixed: any[] = ["Jonson",10,45,8,9,6,false];
 
 console.log(mixed);
 
+for (let result of mixed){
+   console.log(result);
+}
+
+
+
+
 

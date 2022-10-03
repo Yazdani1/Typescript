@@ -6,10 +6,6 @@
 
 // let color: string | number | boolean;
 
-
-
-
-
 // Name = "hkhh";
 
 // let a:any = "Hello"
@@ -95,9 +91,7 @@
 
 // var proid = "I am a variable from type of typescript";
 
-
 // console.log(proid);
-
 
 // //Enum
 // enum Directions {
@@ -113,7 +107,7 @@
 
 //     left = 1,
 //     right = 2,
-    
+
 // }
 
 // console.log("Enum with value"+ Direction2.left);
@@ -126,57 +120,59 @@
 
 // }
 
-
 // console.log("Enum value with string type:"+Direction3.process)
-
-
 
 // console.log("Total count" +amount(10,50))
 // console.log("Total count" +amount(150,87))
 
 interface IBase {
-    id?: string | number,
-    name?: string,
-    image?: string
+  id?: string | number;
+  name?: string;
+  image?: string;
 }
 
-interface Post extends IBase{
-    title: string,
-    des?: string,
-    comment?: string
+interface Post extends IBase {
+  title: string;
+  des?: string;
+  comment?: string;
 }
 
-const PostDetails = (postDetails: Post)=>{
+const PostDetails = (postDetails: Post) => {
+  console.log(
+    "Post title is:" + postDetails.title,
+    postDetails.des,
+    postDetails.id
+  );
+};
 
-    console.log("Post title is:"+postDetails.title,postDetails.des,postDetails.id);
-
-}
-
-PostDetails({title:"First post is here",des:"This is a first description",id:10})
+PostDetails({
+  title: "First post is here",
+  des: "This is a first description",
+  id: 10,
+});
 
 var a: number = 10;
 
 // console.log("Numbr is here:"+a);
 
-
 enum Status {
-    done = "done",
-    process = "process",
-    started = "started",
-    panding = "panding"
+  done = "done",
+  process = "process",
+  started = "started",
+  panding = "panding",
 }
-if(Status.process==="process"){
-    console.log("Its matching")
-
-}else{
-    console.log("Not matching")
-}
-
-const firstFunction = (a:number,b:number)=>{
-    console.log("Learning function..."+(a+b));
+if (Status.process === "process") {
+  console.log("Its matching");
+} else {
+  console.log("Not matching");
 }
 
-firstFunction(10,20);
+
+const firstFunction = (a: number, b: number) => {
+  console.log("Learning function..." + (a + b));
+};
+
+firstFunction(10, 20);
 
 // function second(){
 //     console.log("This is a second function..")
@@ -184,16 +180,15 @@ firstFunction(10,20);
 
 // second();
 
-const secondFunction = ()=>{
+const secondFunction = (a: number, b: number):number => {
+  return a + b;
+};
 
-    
-}
-
-
-
-
+const resultSecondFunction = secondFunction(5,6);
+console.log("Return result is:"+resultSecondFunction);
 
 
+const secondResultSecondFunction = secondFunction(10,80);
 
 
-
+console.log("Return result is:"+secondResultSecondFunction);
