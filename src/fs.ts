@@ -19,3 +19,16 @@ const newAddition:addValue = (num1:number,num2:string)=>{
 console.log(add(5,55));
 console.log("New Result is here:"+newAddition(89,"55"));
 
+
+type subtrcution = (a:number,b:number,c:number)=>number;
+
+
+const doSubtruction: subtrcution = (n1:number,n2:number,n3:number):number=>{
+
+    return n1+n2;
+
+}
+
+
+
+
