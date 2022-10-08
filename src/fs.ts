@@ -25,9 +25,11 @@ type subtrcution = (a:number,b:number,c:number)=>number;
 
 const doSubtruction: subtrcution = (n1:number,n2:number,n3:number):number=>{
 
-    return n1+n2;
+    return n1-n2;
 
 }
+
+console.log("Subtraction:"+doSubtruction(50-10))
 
 
 
