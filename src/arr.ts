@@ -24,6 +24,9 @@ for (let result of mixed){
 }
 
 
+const listItem: number[] = [45,10,45,8,9,6,89,78,9,6,5,6,5,5];
+
+
 
 
 
