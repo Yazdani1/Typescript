@@ -33,4 +33,5 @@ for (let i of listItem){
 
 
 
+const namelIST: string[] = ["Jon",'Doe',"Mikle"];
 
