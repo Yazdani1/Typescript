@@ -31,3 +31,8 @@ const namelIST: string[] = ["Jon", "Doe", "Mikle"];
 for (let n of namelIST) {
   console.log(n);
 }
+
+const studetnlist: string[] = ["Jon", "Doe", "Mikle"];
+
+
+
