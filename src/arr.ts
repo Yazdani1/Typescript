@@ -35,8 +35,10 @@ for (let n of namelIST) {
 const studetnlist: string[] = ["Jon", "Doe", "Mikle"];
 
 
-for(let i of studetnlist){
-  
+for(let i in studetnlist){
+
+  console.log(i);
+
 }
 
 
