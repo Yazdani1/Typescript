@@ -29,7 +29,7 @@ const doSubtruction: subtrcution = (n1:number,n2:number,n3:number):number=>{
 
 }
 
-console.log("Subtraction:"+doSubtruction(50-10))
+// console.log("Subtraction:"+doSubtruction(50-10))
 
 
 

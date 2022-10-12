@@ -42,3 +42,10 @@ for(let i in studetnlist){
 }
 
 
+const val: number[] = [10,4,5,6,9,6,5,5]
+
+for (let i=0; i<=10;i++){
+  console.log(i)
+}
+
+
