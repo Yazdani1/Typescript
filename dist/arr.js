@@ -24,6 +24,6 @@ for (let i in studetnlist) {
     console.log(i);
 }
 const val = [10, 4, 5, 6, 9, 6, 5, 5];
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 100; i++) {
     console.log(i);
 }
