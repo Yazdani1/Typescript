@@ -49,3 +49,8 @@ for (let i=0; i<=100;i++){
 }
 
 
+for (let valcount of val){
+  console.log(valcount);
+}
+
+
