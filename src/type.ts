@@ -59,6 +59,18 @@ jobPost(7,45);
 console.log(jobPost("fff","dfdd"));
 
 
+type info = number | string | boolean;
+
+
+const infoDetails = (name:info,active:info)=>{
+
+    
+
+}
+
+
+
+
 
 
 
