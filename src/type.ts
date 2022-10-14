@@ -64,7 +64,11 @@ type info = number | string | boolean;
 
 const infoDetails = (name:info,active:info)=>{
 
-    
+    var result = name;
+    var testActive = active;
+
+    console.log(result,testActive);
+
 
 }
 
