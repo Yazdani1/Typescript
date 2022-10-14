@@ -62,7 +62,7 @@ console.log(jobPost("fff","dfdd"));
 type info = number | string | boolean;
 
 
-const infoDetails = (name:info,active:info)=>{
+const infoDetails = (name?:info,active?:info)=>{
 
     var result = name;
     var testActive = active;
@@ -71,6 +71,8 @@ const infoDetails = (name:info,active:info)=>{
 
 
 }
+
+infoDetails();
 
 
 
