@@ -40,8 +40,23 @@ const profileResult = userProfile.name;
 
 console.log(profileResult);
 
+type Profile = {
+  name: string;
+  email?: string;
+  password?: string;
+  updateDate?: string;
+  
+}
 
 
+const userProfileInfo = (profile:Profile)=>{
+
+  const profileValue = profile.name
+
+}
+
+
+userProfileInfo({name:"name"});
 
 
 
