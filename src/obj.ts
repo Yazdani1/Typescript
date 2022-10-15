@@ -51,7 +51,7 @@ type Profile = {
 
 const userProfileInfo = (profile:Profile)=>{
 
-  const profileValue = profile.name
+  const profileValue = profile.name + profile.email + profile.password
 
 }
 
