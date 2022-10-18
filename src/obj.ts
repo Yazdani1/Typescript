@@ -71,6 +71,16 @@ type JobDetails = {
 }
 
 
+const createJob = (jobs:JobDetails)=>{
+
+  const jobdetails = jobs._id + jobs.title + jobs.des + jobs.location + jobs.date
+
+}
+
+
+
+
+
 
 
 
