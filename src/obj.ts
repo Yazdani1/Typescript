@@ -60,5 +60,17 @@ userProfileInfo({name:"name"});
 
 
 
+type JobDetails = {
+  
+  _id: string;
+  title: string;
+  des: string;
+  date: string;
+  location: string
+
+}
+
+
+
 
 
