@@ -90,6 +90,10 @@ const jobinfo:JobDetails = {
 
 
 
+const jobobj = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
+
+console.log(jobobj)
+
 
 
 
