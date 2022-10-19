@@ -77,6 +77,19 @@ const createJob = (jobs:JobDetails)=>{
 
 }
 
+const jobinfo:JobDetails = {
+
+  _id:"2",
+  title:"Job title",
+  des:"Job description",
+  date:"dfgd",
+  location:"Dormtund"
+
+
+} 
+
+
+
 
 
 
