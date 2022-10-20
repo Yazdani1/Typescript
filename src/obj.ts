@@ -99,7 +99,9 @@ const jobinfoobdj = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
 
 console.log(jobinfoobdj)
 
+const jobinfodetails = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
 
+console.log(jobinfodetails)
 
 
 
