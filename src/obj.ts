@@ -104,7 +104,9 @@ const jobinfodetails = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.locat
 console.log(jobinfodetails)
 
 
+const jobportalinfo = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
 
+console.log(jobportalinfo)
 
 
 
