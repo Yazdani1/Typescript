@@ -95,6 +95,11 @@ const jobobj = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
 console.log(jobobj)
 
 
+const jobinfoobdj = jobinfo._id + jobinfo.title + jobinfo.des + jobinfo.location
+
+console.log(jobinfoobdj)
+
+
 
 
 
